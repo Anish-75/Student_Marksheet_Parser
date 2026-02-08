@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Flask
+instance/
+.webassets-cache
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+uploads/*
+outputs/*
+test_outputs/*
+
+# Keep folder structure
+!uploads/.gitkeep
+!outputs/.gitkeep
+!test_outputs/.gitkeep
+
+# Excel files (except samples)
+*.xlsx
+*.xls
+!sample_template.xlsx
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary files
+*.tmp
+*.temp
